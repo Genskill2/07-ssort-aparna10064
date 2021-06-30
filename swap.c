@@ -12,9 +12,8 @@ int swap_max(int arr[], int l, int n; {
           pos = i;
         }
   }
-
    arr[pos]=arr[n];
-   arr[n]=max;}
+   arr[n]=max;
  }
 int ssort(int arr[], int l){
   for(int i=0; i<l; i++) {
