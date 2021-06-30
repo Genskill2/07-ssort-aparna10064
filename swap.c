@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int swap_max(int arr[], int l, int n; {
+int swap_max(int arr[], int l, int n) {
   int max = arr[n];
   int pos = n;
   for(int i =0; i<l; i++)
