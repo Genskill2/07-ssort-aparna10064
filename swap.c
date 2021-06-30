@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <stdlib.h>
 #include <cs50.h>
+void swap_max(int[], int, int);
 
 void ssort(int arr[], int l){
   for(int i=0; i<l; i++) {
